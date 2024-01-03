@@ -2,21 +2,19 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"customizations": {
 		"vscode": {
-			"settings": {
-				"editor.tabSize": 4,
-				"editor.insertSpaces": false,
-				"editor.detectIndentation": false,
-				"editor.renderWhitespace": "all",
-				"files.trimTrailingWhitespace": true,
-				"files.insertFinalNewline": true
-			},
 			"extensions": [
 				"kube.42header",
 				"MariusvanWijk-JoppeKoers.codam-norminette-3",
 				"DoKca.42-ft-count-line",
-				"ms-vscode.cpptools"
-			]
+				"Catppuccin.catppuccin-vsc",
+				"thang-nm.catppuccin-perfect-icons",
+				"llvm-vs-code-extensions.vscode-clangd",
+				"vadimcn.vscode-lldb"
+			],
+			"openFiles": [
+				"main.c"
+			  ]
 		}
 	},
-	"postCreateCommand": "python3 -m pip install --upgrade pip setuptools && python3 -m pip install norminette"
+	"postCreateCommand": "sudo apt-get install clangd-12 && python3 -m pip install --upgrade pip setuptools && python3 -m pip install norminette"
 }
