@@ -18,5 +18,5 @@
 			]
 		  }
 	},
-	"postCreateCommand": "sudo apt-get update && sudo apt-get install clangd-12 && python3 -m pip install --upgrade pip setuptools && python3 -m pip install norminette"
+	"postCreateCommand": "sudo apt-get update && sudo apt-get install -y clangd-12 && python3 -m pip install --upgrade pip setuptools && python3 -m pip install norminette"
 }
