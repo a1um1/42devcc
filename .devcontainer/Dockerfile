@@ -1,4 +1,4 @@
-ARG VARIANT=buster
+ARG VARIANT=hirsute
 FROM mcr.microsoft.com/vscode/devcontainers/cpp:0-${VARIANT}
 # COPY library-scripts/github-debian.sh /tmp/library-scripts/
 RUN apt-get update
