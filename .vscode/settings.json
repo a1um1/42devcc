@@ -15,4 +15,6 @@
 	"editor.rulers": [
 		80
 	],
+	"clangd.checkUpdates": true,
+	"C_Cpp.intelliSenseEngine": "disabled",
 }
