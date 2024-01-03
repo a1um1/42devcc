@@ -10,11 +10,13 @@
 				"thang-nm.catppuccin-perfect-icons",
 				"llvm-vs-code-extensions.vscode-clangd",
 				"vadimcn.vscode-lldb"
-			],
+			]
+		},
+		"codespaces": {
 			"openFiles": [
 				"main.c"
-			  ]
-		}
+			]
+		  }
 	},
-	"postCreateCommand": "sudo apt-get install clangd-12 && python3 -m pip install --upgrade pip setuptools && python3 -m pip install norminette"
+	"postCreateCommand": "sudo apt-get update && sudo apt-get install clangd-12 && python3 -m pip install --upgrade pip setuptools && python3 -m pip install norminette"
 }
