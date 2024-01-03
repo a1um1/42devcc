@@ -1,4 +1,4 @@
-ARG VARIANT=hirsute
+ARG VARIANT=focal
 FROM mcr.microsoft.com/vscode/devcontainers/cpp:${VARIANT}
 # COPY library-scripts/github-debian.sh /tmp/library-scripts/
 RUN apt update -y
